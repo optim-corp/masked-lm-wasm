@@ -1,0 +1,15 @@
+**/.git/
+**/.git*
+
+.dockerignore
+Dockerfile
+
+tmp/
+dist/
+node_modules/
+pkg/
+
+maskedlm/pkg
+maskedlm/target
+maskedlm/bert-masked.onnx
+maskedlm/vocab.txt

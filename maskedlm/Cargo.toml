@@ -1,0 +1,14 @@
+[package]
+name = "maskedlm"
+version = "0.1.0"
+authors = ["suzunosuke.ito <suzunosuke.ito@optim.co.jp>"]
+edition = "2018"
+
+[dependencies]
+tokenizers = "0.10.1"
+wasm-bindgen = "0.2.74"
+tract-onnx = "0.15.2"
+console_error_panic_hook = "0.1.6"
+
+[lib]
+crate-type = ["cdylib"]

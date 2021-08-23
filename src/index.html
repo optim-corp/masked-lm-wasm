@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>wasm-maskedlm</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand navbar-dark bg-info">
+      <div class="container">
+        <h1 class="navbar-brand">MaskedLM on Wasm</h1>
+      </div>
+    </nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-5">
+          <input type="text" class="form-control item" name="input" id="input" placeholder="穴埋めしたい文章を入力してください">
+        </div>
+        <div class="col-md-2 text-center">
+          <button name="button" class="btn btn-primary" id="button">[MASK]を穴埋め</button>
+        </div>
+        <div class="col-md-5">
+          <input type="text" class="form-control item" name="output" id="output" placeholder="穴埋め後" readonly>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
