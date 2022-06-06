@@ -1,6 +1,6 @@
 FROM node:16.7.0-slim as node
 FROM python:3.9.0-slim as python
-FROM rust:1.54.0-slim as rust
+FROM rust:1.61.0-slim as rust
 FROM httpd:2.4.48
 
 RUN apt-get update && apt-get install -y \
